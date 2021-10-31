@@ -1,0 +1,489 @@
+html{
+  font-size: 62.5%;
+}
+
+/* heading section*/
+.heading{
+  background-color: #FF2442;
+  height: 58rem;
+
+}
+
+h1{
+  text-align: center;
+  padding: 0.05rem;
+  color:white;
+  font-size: 10rem;
+  font-family: 'Russo One', sans-serif;
+  word-spacing: 1rem;
+  letter-spacing: 1rem;
+  padding-top: 3rem;
+
+}
+
+.afterHeading{
+  height:21rem;
+}
+.subTitle{
+  text-align: left;
+  margin: 3rem;
+  color:#FFB830;
+  width: 26.5rem;
+  position: relative;
+  left:20%;
+  top:10rem;
+  font-size: 2.6rem;
+  font-family: 'Hammersmith One', sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+@keyframes botlogo {
+  0% {z-index:1; left:-20%;}
+  20% {left:10%;}
+  100% {z-index:1;right:50%;}
+}
+
+.botImage{
+  z-index: -1;
+  position: relative;
+  bottom: 1rem;
+  top:2rem;
+  left: 2%;
+  width: 15rem;
+  height:15rem;
+  animation-name: botlogo;
+  animation-duration: 2s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+}
+/* for animating arrow*/
+@keyframes arrow_animation {
+  from {left:40rem;}
+  to {left:20rem;}
+}
+.arrow{
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  left:35rem;
+  bottom:1.6rem;
+  top:3rem;
+  animation-name: arrow_animation;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 2;
+
+}
+
+.activateButton{
+  position: relative;
+  left:20rem;
+  bottom: 1rem;
+}
+
+.deactivateButton{
+  position: relative;
+  left:30rem;
+  bottom:1rem;
+  display: none;
+}
+
+
+/* bot body */
+
+
+.secondSection{
+  display:none;
+  background-color: #FFEDDA;
+  margin-top: 0;
+  height:61rem;
+  padding-top: 3rem;
+
+}
+
+.botOutlineDiv{
+  background-color: white;
+  height:55rem;
+  width:30rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1rem;
+  border-radius: 3rem;
+}
+
+.mobileInterface{
+  border-style: groove;
+  border-color: black;
+  height:55rem;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1rem;
+  border-radius: 3rem;
+  background-color: #e8fafe;
+}
+
+/*notification bar*/
+
+.notificationBar{
+  height:2.56rem;
+
+}
+.time{
+  width:5.8rem;
+}
+.tm{
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.notification{
+  width: 6rem;
+  position: relative;
+  bottom: 2.8rem;
+  left: 22.1rem;
+  height: 2.5rem;
+}
+.icons{
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+}
+
+.battery{
+  margin-top:0.3rem;
+  height:1.3rem;
+  width:1.6rem;
+  padding-left: 0.15rem;
+  margin-top: 0.3rem;
+  position: relative;
+  top:0.2rem;
+}
+
+.network{
+  height:1.3rem;
+  width:1.3rem;
+  margin-left: 0.3rem;
+  margin-top: 0.3rem
+}
+
+/*notification bar ends*/
+
+.mobSpeakerHolder{
+  border-style: groove;
+  border-color: black;
+  width:16rem;
+  height:2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 0;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  background-color: black;
+  position: relative;
+  bottom:5.168rem;
+}
+.mobSpeaker{
+  border-style: groove;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width:5.5rem;
+  position: relative;
+  top:18%;
+  height:0.8rem;
+  border-radius: 0.5rem;
+  background-color: #FF2442;
+}
+.mobSensor{
+  border-style: groove;
+  border-radius: 10rem;
+  border-color: black;
+  width: 1.3rem;
+  height: 1.3rem;
+  position: relative;
+  left:80%;
+  bottom: 0.5rem;
+  background-color: #FF2442;
+
+}
+/*handwave animation*/
+@keyframes handwave {
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(60deg);}
+  100%{transform: rotate(0deg);}
+}
+
+/* mobile screen content*/
+.handwave{
+  height:2.5rem;
+  width: 2.5rem;
+  position: relative;
+  top:1rem;
+  left:7.2rem;
+  animation-name: handwave;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: 4;
+}
+.screenHeading{
+  border-bottom-style: groove;
+  border-color: black;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-top: 0rem;
+  height:7rem;
+}
+.mobScreenHeading1{
+  text-align: center;
+  position: relative;
+  bottom: 1.2rem;
+}
+.mobScreenHeading2{
+  text-align: center;
+  position: relative;
+  bottom:1.5rem;
+}
+
+/*chat record holder*/
+.chatrecord{
+  margin-top: 2rem;
+  height: 28rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-style: double;
+  border-color: black;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+/*user Response Style*/
+.userResponseStyle{
+  text-align: left;
+  padding-left: 0.8rem;
+}
+
+/*bot Response Style */
+.botResponseStyle{
+  text-align: right;
+  padding-right: 0.8rem;
+  color: red;
+}
+
+/*user response time stylesheet*/
+.userResponseTimeStyleCSS{
+  text-align: left;
+  padding-top: 0.3rem;
+  color:grey;
+  font-style: italic;
+  font-size: 0.9rem;
+
+}
+
+/*bot response time style*/
+.botResponseTimeStyleCSS{
+  text-align: right;
+  color: grey;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  font-style: italic;
+  font-size: 0.9rem;
+
+}
+
+
+/* message suggestion */
+.chatSuggestionHeading{
+  position: relative;
+  top:1.5rem;
+  margin-left: 1rem;
+}
+.chatSuggestion{
+  border-top-style: groove;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-color: black;
+  height:5rem;
+  position: relative;
+  top:1.5rem;
+  text-align: center;
+  overflow: hidden;
+}
+.btn{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.35rem;
+}
+
+/* user response buttons style
+.b1{
+  position: relative;
+  right: 5rem;
+}
+.b2{
+  position: relative;
+  right: 10rem;
+}
+.b3{
+  position: relative;
+  right: 20rem;
+}
+*/
+/* type message */
+.screenfooter{
+  border-top-style: groove;
+  border-color: black;
+  height: 5rem;
+  position: relative;
+  top:2rem;
+}
+
+.typeMessageText{
+  margin-left:1rem;
+  margin-top: 0.7rem;
+}
+
+/* footer */
+.fot{
+  margin-top: 3rem;
+  text-align: center;
+  color: #FF2442;
+  height:5rem;
+}
+.credit{
+  margin: 1rem;
+  margin-top: 1rem;
+  font-size:1.8rem;
+}
+/* responsiveness*/
+
+/*big screen*/
+@media (min-width:999px){
+  .heading{
+    background-color: #FF2442;
+  }
+  .subTitle{
+    position: relative;
+    left: 28.1rem;
+  }
+  .activateButton{
+    position: relative;
+    left: 100rem;
+  }
+  .subTitle{
+    position: relative;
+    left:22rem;
+  }
+}
+
+/*small screen laptops*/
+@media (max-width:998px){
+  html{
+    font-size: 52.5%;
+  }
+  .activateButton{
+    position: relative;
+    left: 15rem;
+  }
+  .deactivateButton{
+    position: relative;
+    left: 25rem;
+  }
+  .notificationBar{
+    height:2.54rem;
+  }
+  .mobSpeakerHolder{
+    position: relative;
+    bottom:5.2rem;
+  }
+}
+
+/*ipads & tablets*/
+@media (max-width:768px){
+  html{
+     font-size: 39.5%;
+   }
+  .notificationBar{
+    height:2.46rem;
+  }
+  .activateButton{
+    position: relative;
+    left: 20rem;
+  }
+  .deactivateButton{
+    position: relative;
+    left: 21rem;
+  }
+}
+@media(max-width:720px){
+  .heading{background-color: #FF2442;}
+}
+.activateButton{
+  position: relative;
+  left: 24rem;
+}
+.deactivateButton{
+  position: relative;
+  left:25rem;
+}
+
+@media(max-width:660px){
+
+.activateButton{
+  position: relative;
+  left:20rem;
+}
+}
+
+/*mobile devices*/
+@media(max-width:560px){
+  html{
+    font-size: 30.5%;
+  }
+  .activateButton{
+    position: relative;
+    left: 20.5rem;
+  }
+  .deactivateButton{
+    left: 20.5rem;
+  }
+  .notificationBar{
+    height:2.45rem;
+  }
+  .btn{
+    font-size: 1.3rem;
+  }
+}
+@media(max-width:510px){
+  .activateButton{
+    position: relative;
+    left: 22rem;
+  }
+}
+@media(max-width:460px){
+  html{
+    font-size: 23.2%;
+  }
+  .notificationBar{
+    height:2.42rem;
+  }
+  .activateButton{
+    position: relative;
+    left: 23rem;
+  }
+  .deactivateButton{
+    position: relative;
+    left: 24rem;
+  }
+  .btn{
+    font-size: 1.3rem;
+  }
+}
+@media(max-width:360px){
+  html{
+    font-size: :13.2%
+  }
+}

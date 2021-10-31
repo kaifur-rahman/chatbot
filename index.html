@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
+    <!--fonts ends-->
+    <!--favicon-->
+    <link rel="icon" href="favicon/favicon-32x32.png">
+    <!--custom css-->
+    <link rel="stylesheet" href="style/style.css">
+    <title>Chat Bot</title>
+  </head>
+  <body>
+    <!-- header-->
+    <div class="body">
+    <div class="heading container-fluid">
+      <h1>Chat Bot</h1>
+      <div class="afterHeading">
+        <h3 class="subTitle line1">Hello Visitor</h3>
+        <h3 class ="subTitle line2"></h3>
+        <img class="botImage" src="robot.png" />
+        <img class="arrow" src="images/arrow.png" />
+      </div>
+      <button class="activateButton btn btn-outline-dark"type="button" name="button">Activate Bot</button>
+      <button class="deactivateButton btn btn-outline-dark"type="button" name="button">Deactivate Bot</button>
+    </div>
+
+    <!-- bot body -->
+        <div class="secondSection">
+        <div class="botOutlineDiv">
+        <div class="mobileInterface">
+          <div class="notificationBar">
+              <div class="time">
+                  <h4 id="ctime" class="tm">18:45AM</h4>
+              </div>
+              <div class="notification">
+              <!--flaticon-->
+                  <img class="battery" src="images/battery.png" />
+                  <img  class="network" src="images/network.png" alt="">
+              </div>
+              <div class="mobSpeakerHolder">
+                  <div class="mobSpeaker">
+                  </div>
+                  <div class="mobSensor">
+                  </div>
+            </div>
+          </div>
+        <!-- content inside screen-->
+        <div class="screenHeading">
+          <img class="handwave"src="images/handwave.png" alt="">
+          <h3 class="mobScreenHeading1">I'm Kaifo<br />
+          <h3 class="mobScreenHeading2">Your Chat Partner</h3>
+        </div>
+        <div class="chatrecord">
+          <h4 class="userResponse"></h4>
+          <h4 class="botResponse"></h4>
+        </div>
+        <!--chat button heading-->
+        <h5 class="chatSuggestionHeading">Select from suggestions.. </h4>
+        <!--chat buttons-->
+        <div class="chatSuggestion">
+          <button  class="btn btn-danger b1 userResponseButton1"type="button" name="button"></button>
+          <button  class="btn btn-danger b2 userResponseButton2" type="button" name="button"></button>
+          <button  class="btn btn-danger b3 userResponseButton3"type="button" name="button"></button>
+        </div>
+        <div class="screenfooter">
+          <h6 class="typeMessageText">type your message here..</h6>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    <!-- footer -->
+    <div class="fot">
+        <strong class="credit">Developed By Kaifur Rahman</strong>
+    </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/index.js">
+  </script>
+  </body>
+</html>

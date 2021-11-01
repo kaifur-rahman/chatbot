@@ -232,7 +232,8 @@ function userResponseButtonContentChanger(){
       $(".userResponseButton3").text(userResponseCollection_b1.u9);
       contentChangerCounter++;
       document.querySelector(".b1").addEventListener("click",function(){
-        checker=this.innerHTML;}); //storing value of button 1 to get gotta go! value
+        checker=this.innerHTML;;
+      });
       break;
     case 3:
     if (button_1_click_counter==3){

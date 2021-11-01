@@ -201,7 +201,7 @@ function randomResponseGenerator(){
   return botResponseRandomNumber;
 }
 
-var checker="";//to check to value of gotta go! button to end chat
+
 //function to change chat suggestion button contnets
 var contentChangerCounter=0;
 function userResponseButtonContentChanger(){
@@ -231,14 +231,15 @@ function userResponseButtonContentChanger(){
       $(".userResponseButton2").text(userResponseCollection_b1.u8);
       $(".userResponseButton3").text(userResponseCollection_b1.u9);
       contentChangerCounter++;
-      document.querySelector(".b1").addEventListener("click",function(){
-        checker=this.innerHTML; //storing value of button 1 to get gotta go! value
       break;
     case 3:
     if (button_1_click_counter==3){
       second_topic();
     }
-    else if (checker==="Gotta Go!"){
+    else if (button_1_click_counter==2 && button_2_click_counter!==1){
+      second_topic();
+    }
+    else if (button_2_click_counter==1 && button_1_click_counter==2){
       second_topic();
     }
     else{

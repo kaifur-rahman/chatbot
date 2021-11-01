@@ -44,7 +44,7 @@ h1{
 }
 
 .botImage{
-/*  z-index: -1;*/
+  z-index: -1;
   position: relative;
   bottom: 1rem;
   top:2rem;
@@ -227,7 +227,7 @@ h1{
   animation-name: handwave;
   animation-duration: 1s;
   animation-timing-function: linear;
-  animation-iteration-count: 6;
+  animation-iteration-count: 4;
 }
 .screenHeading{
   border-bottom-style: groove;
@@ -365,51 +365,17 @@ h1{
   .heading{
     background-color: #FF2442;
   }
-  .title{
-    font-size: 13rem;
-  }
-  .botImage{
-    width: 18rem;
-    height:18rem;
-  }
   .subTitle{
-    width: 50.5rem;
-    font-size: 4rem;
-    left: 20%;
+    position: relative;
+    left: 28.1rem;
   }
   .activateButton{
     position: relative;
-    left: 25rem;
-    top:3rem;
-  }
-  .deactivateButton{
-    position: relative;
-    left: 25rem;
-    top:3rem;
+    left: 100rem;
   }
   .subTitle{
     position: relative;
     left:22rem;
-  }
-  .mobSpeakerHolder{
-    position: relative;
-    bottom: 5.21rem;
-
-  }
-  .btn{
-    font-size: 2rem;
-  }
-  .b1{
-    font-size: 1.3rem;
-  }
-  .b2{
-    font-size: 1.3rem;
-  }
-  .b3{
-    font-size: 1.3rem;
-  }
-  .secondSection{
-    zoom:120%;
   }
 }
 
@@ -418,48 +384,13 @@ h1{
   html{
     font-size: 52.5%;
   }
-  .heading{
-    background-color: green;
-     height: 55rem;
-  }
-  .title{
-    font-size: 12rem;
-  }
-  .botImage{
-    width: 16rem;
-    height:16rem;
-  }
-  .subTitle{
-    width: 50.5rem;
-    font-size: 4rem;
-    left: 20%;
-  }
   .activateButton{
     position: relative;
-    left: 26rem;
-    top:3rem;
+    left: 15rem;
   }
   .deactivateButton{
     position: relative;
-    left: 26rem;
-    top:3rem;
-  }
-  .btn{
-    font-size: 2rem;
-  }
-  @keyframes arrow_animation_1{
-    from {left:55rem;}
-    to {left:23rem;}
-  }
-  .arrow{
-    height: 3.8rem;
-    width: 3.8rem;
-    position: relative;
-    left:55rem;
-    animation-name: arrow_animation_1;
-    animation-duration: 0.9s;
-    animation-delay: 0.5s;
-    animation-iteration-count: 2;
+    left: 25rem;
   }
   .notificationBar{
     height:2.54rem;
@@ -468,18 +399,6 @@ h1{
     position: relative;
     bottom:5.2rem;
   }
-  .b1{
-    font-size: 1.3rem;
-  }
-  .b2{
-    font-size: 1.3rem;
-  }
-  .b3{
-    font-size: 1.3rem;
-  }
-  .secondSection{
-    zoom:115%;
-  }
 }
 
 /*ipads & tablets*/
@@ -487,200 +406,66 @@ h1{
   html{
      font-size: 39.5%;
    }
-   .heading{
-     background-color: blue;
-     height: 70rem;
-   }
-   .title{
-     font-size: 12rem;
-   }
-   .botImage{
-     width: 20rem;
-     height:20rem;
-   }
-   .subTitle{
-     width: 50.5rem;
-     font-size: 4.6rem;
-     left: 25%;
-   }
   .notificationBar{
     height:2.46rem;
   }
   .activateButton{
     position: relative;
-    left: 28rem;
-    top:5rem;
+    left: 20rem;
   }
   .deactivateButton{
     position: relative;
-    left: 28rem;
-    top:5rem;
+    left: 21rem;
   }
-  .btn{
-    font-size: 2.2rem;
-  }
-  @keyframes arrow_animation_1 {
-    from {left:55rem;}
-    to {left:23rem;}
-  }
-  .arrow{
-    height: 3.8rem;
-    width: 3.8rem;
-    position: relative;
-    left:55rem;
-    animation-name: arrow_animation_1;
-    animation-duration: 0.9s;
-    animation-delay: 0.5s;
-    animation-iteration-count: 2;
-  }
-  .b1{
-    font-size: 1.29rem;
-  }
-  .b2{
-    font-size: 1.29rem;
-  }
-  .b3{
-    font-size: 1.29rem;
-  }
-  .heading{
-    zoom:110%;
-  }
-  .secondSection{
-    zoom:150%;
-  }
-
+}
 @media(max-width:720px){
-  .heading{
-    background-color: #FF2442;
-    height: 65rem;
-  }
-.title{
-  font-size: 12rem;
-}
-.botImage{
-  width: 18rem;
-  height:18rem;
-}
-.subTitle{
-  width: 50.5rem;
-  font-size: 4.6rem;
-  left: 25%;
+  .heading{background-color: #FF2442;}
 }
 .activateButton{
   position: relative;
-  left: 25rem;
-  top:5rem;
+  left: 24rem;
 }
 .deactivateButton{
   position: relative;
   left:25rem;
-  top:5rem;
 }
-.arrow{
-  height: 3rem;
-  width: 3rem;
-  position: relative;
-  left:30rem;
-  /*bottom:1.6rem;
-  top:4rem;*/
-}
-.btn{
-  font-size: 2rem;
-}
-.b1{
-  font-size: 1.28rem;
-}
-.b2{
-  font-size: 1.28rem;
-}
-.b3{
-  font-size: 1.28rem;
-}
-.heading{
-  zoom:120%;
-}
-.secondSection{
-  zoom:140%;
-}
-}
-/*@media(max-width:660px){
+
+@media(max-width:660px){
 
 .activateButton{
   position: relative;
   left:20rem;
 }
-}*/
+}
 
 /*mobile devices*/
 @media(max-width:560px){
   html{
     font-size: 30.5%;
   }
-  .heading{
-    background-color: yellow;
-    height: 88rem;
-  }
-  .title{
-    font-size: 15rem;
-  }
-  .botImage{
-    width: 25rem;
-    height:25rem;
-  }
-  .subTitle{
-    width: 50.5rem;
-    position: relative;
-    left:25%;
-    top:10rem;
-    font-size: 7.6rem;
-  }
   .activateButton{
     position: relative;
-    left: 28rem;
-    top:25rem;
-    font-size: 20rem;
+    left: 20.5rem;
   }
   .deactivateButton{
-    left: 28rem;
-    top:25rem;
-    font-size: 5rem;
-  }
-  .arrow{
-    height: 4rem;
-    width: 4rem;
-    position: relative;
-    left:35rem;
-    bottom:1.6rem;
-    top:4rem;
+    left: 20.5rem;
   }
   .notificationBar{
     height:2.45rem;
   }
-  .mobSpeakerHolder{
-    bottom:5.25rem;
-  }
   .btn{
-    font-size: 2.5rem;
-  }
-  .b1{
     font-size: 1.3rem;
   }
-  .b2{
-    font-size: 1.3rem;
-  }
-  .b3{
-    font-size: 1.3rem;
-  }
-  .secondSection{
-    zoom:180%;
+}
+@media(max-width:510px){
+  .activateButton{
+    position: relative;
+    left: 22rem;
   }
 }
 @media(max-width:460px){
   html{
     font-size: 23.2%;
-  }
-  .heading{
-    background-color: grey;
   }
   .notificationBar{
     height:2.42rem;

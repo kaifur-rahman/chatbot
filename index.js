@@ -258,7 +258,6 @@ function userResponseButtonContentChanger(){
       second_topic();
       contentChangerCounter++;
       break;
-    default:;
 }
 //switch ends here
 }
@@ -433,7 +432,7 @@ function bot_response_b2(){
       }
       setTimeout(end_response_delay,1700);
       break;
-      default:);
+    
     }
 
     //adding bot response time
@@ -506,7 +505,6 @@ function bot_response_b3(){
       }
       setTimeout(end_response_delay,1700);
       break;
-      default:;
     }
     bot_r_int=bot_r_int+1;
     //bot response ends here

@@ -97,14 +97,12 @@ function leave_chat(){
 }
 //function to restart conversation i.e. to delete everything from chat
 function restart_Conversation(){
-  console.log("series value for restart is ",series);
   i=1;
   for(i;i<=series+1;i++){
       $("."+"userResponse"+i).remove();
       $("."+"botResponse"+i).remove();
       $("br").remove();
     }
-    console.log("value of i",i);
   //clearing all the values of variables like refreshing
   series=1;
   button_1_click_counter=0;
@@ -261,7 +259,7 @@ function userResponseButtonContentChanger(){
       second_topic();
       contentChangerCounter++;
       break;
-    default:console.log("finished");
+    default:;
 }
 //switch ends here
 }
@@ -310,7 +308,6 @@ var button_3_click_counter=0;
 
 function user_response_b1(){
   button_1_click_counter+=1; //counting in which series button 1 is clicked
-  console.log("button 1 clicked",button_1_click_counter);
   user_r_cls_name=user_r_str+user_r_int; //adding letter const and varying int to make final class code
   user_message1=$(".b1").text();  //storing button's text value
   $(".userResponse").before("<h4 class=userR> </h4><br>"); //creating new element before original html one
@@ -343,7 +340,6 @@ function bot_response_b1(){
 
     //fetching chat series number and displaying response according to that
     var series=chatSeriesCounter();
-    console.log("Series is",series);
     switch (series){
       case 2:
       $("."+bot_r_cls_name).text(botResponse_b1.b1[randomResponseGenerator()]);
@@ -365,7 +361,6 @@ function bot_response_b1(){
       }
       setTimeout(end_response_delay,1700);
       break;
-      default:console.log("completed response cases");
     }
 
     //bot respons ends here
@@ -389,7 +384,6 @@ function bot_response_b1(){
 
 function user_response_b2(){
   button_2_click_counter+=1;
-  console.log("button 2 clicked",button_2_click_counter);
   user_r_cls_name=user_r_str+user_r_int;
   user_message2=$(".b2").text();
   $(".userResponse").before("<h4 class=userR> </h4><br>");
@@ -420,7 +414,6 @@ function bot_response_b2(){
     $("."+bot_r_cls_name).addClass("botResponseStyle");
     //fetching chat series number and displaying response according to that
     var series=chatSeriesCounter();
-    console.log("Series is",series);
     switch (series){
       case 2:
       $("."+bot_r_cls_name).text(botResponse_b1.b2[randomResponseGenerator()]);
@@ -441,7 +434,7 @@ function bot_response_b2(){
       }
       setTimeout(end_response_delay,1700);
       break;
-      default:console.log("completed response cases");
+      default:);
     }
 
     //adding bot response time
@@ -463,7 +456,6 @@ function bot_response_b2(){
 }
 function user_response_b3(){
   button_3_click_counter+=1;
-  console.log("button 3 clicked",button_3_click_counter);
   user_r_cls_name=user_r_str+user_r_int;
   user_message3=$(".b3").text();
   $(".userResponse").before("<h4 class=userR> </h4><br>");
@@ -495,7 +487,6 @@ function bot_response_b3(){
     $("."+bot_r_cls_name).addClass("botResponseStyle");
     //fetching chat series number and displaying response according to that
     var series=chatSeriesCounter();
-    console.log("Series is",series);
     switch (series){
       case 2:
       $("."+bot_r_cls_name).text(botResponse_b1.b3[randomResponseGenerator()]);
@@ -516,7 +507,7 @@ function bot_response_b3(){
       }
       setTimeout(end_response_delay,1700);
       break;
-      default:console.log("completed response cases");
+      default:;
     }
     bot_r_int=bot_r_int+1;
     //bot response ends here

@@ -406,6 +406,9 @@ h1{
   html{
      font-size: 39.5%;
    }
+  .heading{
+  background-color:blue;
+  }
   .notificationBar{
     height:2.46rem;
   }
@@ -443,6 +446,9 @@ h1{
   html{
     font-size: 30.5%;
   }
+  .heading{
+  background-color:green;
+  }
   .activateButton{
     position: relative;
     left: 20.5rem;
@@ -466,6 +472,9 @@ h1{
 @media(max-width:460px){
   html{
     font-size: 23.2%;
+  }
+  .heading{
+  background-color:purpld;
   }
   .notificationBar{
     height:2.42rem;

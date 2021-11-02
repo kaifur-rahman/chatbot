@@ -367,6 +367,7 @@ html{
 @media (min-width:999px){
   .heading{
     background-color: #FF2442;
+    zoom:80%
   }
   .title{
     font-size: 13rem;
@@ -396,7 +397,7 @@ html{
   }
   .mobSpeakerHolder{
     position: relative;
-    bottom: 5.21rem;
+    bottom: 5.28rem;
 
   }
   .btn{
@@ -412,7 +413,7 @@ html{
     font-size: 1.3rem;
   }
   .secondSection{
-    zoom:110%;
+    zoom:90%;
   }
 }
 

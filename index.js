@@ -167,7 +167,8 @@ var botResponse_b1={
   b2:["I'm Kaifo, a 'Chat Bot', with version 1.0 developed by Kaifur Rahman.","My name is Kaifo and my version is 1.0 , I have been developed as a 'Chat Bot' by Kaifur Rahman.",
       "Hey, I'm a chat bot but my developer named me Kaifo and my version is 1.0.","I'm a 'Chat Bot' with version 1.0, developed by Kaifur Rahman, you can call me Kaifo.",
       "You can call me Kaifo, I have been developed as a 'Chat Bot' by Kaifur Rahman and my version is 1.0"],
-  b3:["This is a chat bot","A useful chat bot","You can use this to chat","A bot which can chat with you","This is a ....."],
+  b3:["This is a chatbot which fundamentally simulates a conversation between a human and a machine without any interference of human operator.In this project just sample features of chatbots have been shown but it can be converted into useful and powerful chatbot according to the requirements."],
+  //2nd round
   //2nd round
   b4:["That's great to know","I wish your everyday goes like this","Great to know!","I'm happy to know that","May god bless your each day like this"],
   b5:["aah No worry ","don't lose hope dear","God is with us","I pray from now it will be best","Bad day should be a motivation for next day"],
@@ -490,7 +491,7 @@ function bot_response_b3(){
     var series=chatSeriesCounter();
     switch (series){
       case 2:
-      $("."+bot_r_cls_name).text(botResponse_b1.b3[randomResponseGenerator()]);
+      $("."+bot_r_cls_name).text(botResponse_b1.b3[0]);
       break;
       case 3:
       $("."+bot_r_cls_name).text(botResponse_b1.b6[randomResponseGenerator()]);

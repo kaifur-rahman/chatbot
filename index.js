@@ -171,8 +171,8 @@ var botResponse_b1={
   //2nd round
   //2nd round
   b4:["That's great to know","I wish your everyday goes like this","Great to know!","I'm happy to know that","May god bless your each day like this"],
-    b5:["aah! no worries tomorrow's a new day. ","Don't lose hope dear,the day still not ended","You seem frustrated.","I have no words to express my sadness","Bad day should be a motivation for next day's hustle"],
-  b6:["I wish it will be best","May result comes to good","Ohh! confused","Let it be haha","You are so caculative"],
+  b5:["aah! no worries tomorrow's a new day. ","Don't lose hope dear,the day still not ended","You seem frustrated.","I have no words to express my sadness","Bad day should be a motivation for next day's hustle"],
+  b6:["Hmmm! I'm waiting..","Okay! let me know when it's done, I am just a text away haha","Ohh! you seem to be confused.","Let it be then, haha","You are so caculative haha"],
   //3rd round
   b7:["Okay! see you soon","Bye bye","Will meet again soon","Okay bye dear","Take care"],
   b8:["Mmmm! please choose one among the suggestions,I will try to fetch something about it...?"],

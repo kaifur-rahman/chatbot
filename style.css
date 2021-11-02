@@ -409,11 +409,11 @@ html{
     font-size: 1.3rem;
   }
   .secondSection{
-    zoom:120%;
+    zoom:110%;
   }
 }
 
-/*small screen laptops*/
+/*small screen laptops all mobile phones and tablets*/
 @media (max-width:998px){
   html{
     font-size: 52.5%;

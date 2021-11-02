@@ -163,8 +163,10 @@ var userResponseCollection_b1={
 
 //bot response collection for button 1
 var botResponse_b1={
-  b1:["Hey!, How was your day?","Howdy How was your day?","Hello, How was your day?","Hi, How was your day?","Hi, there!, How was your day?"],
-  b2:["I am your friend","Consider me as your friend","I'm Kaifo developed by Kaifur","Your chat partner haha","Your freind dear!"],
+  b1:["Hey!, How was your day?","Yo!, How was your day?","Hello, How was your day?","Hi, How was your day?","Hi, there!, How was your day?"],
+  b2:["I'm Kaifo, a 'Chat Bot', with version 1.0 developed by Kaifur Rahman.","My name is Kaifo and my version is 1.0 , I have been developed as a 'Chat Bot' by Kaifur Rahman.",
+      "Hey, I'm a chat bot but my developer named me Kaifo and my version is 1.0.","I'm a 'Chat Bot' with version 1.0, developed by Kaifur Rahman, you can call me Kaifo.",
+      "You can call me Kaifo, I have been developed as a 'Chat Bot' by Kaifur Rahman and my version is 1.0"],
   b3:["This is a chat bot","A useful chat bot","You can use this to chat","A bot which can chat with you","This is a ....."],
   //2nd round
   b4:["That's great to know","I wish your everyday goes like this","Great to know!","I'm happy to know that","May god bless your each day like this"],

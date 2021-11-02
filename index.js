@@ -171,25 +171,25 @@ var botResponse_b1={
   //2nd round
   //2nd round
   b4:["That's great to know","I wish your everyday goes like this","Great to know!","I'm happy to know that","May god bless your each day like this"],
-  b5:["aah No worry ","don't lose hope dear","God is with us","I pray from now it will be best","Bad day should be a motivation for next day"],
+    b5:["aah! no worries tomorrow's a new day. ","Don't lose hope dear,the day still not ended","You seem frustrated.","I have no words to express my sadness","Bad day should be a motivation for next day's hustle"],
   b6:["I wish it will be best","May result comes to good","Ohh! confused","Let it be haha","You are so caculative"],
   //3rd round
   b7:["Okay! see you soon","Bye bye","Will meet again soon","Okay bye dear","Take care"],
   b8:["Mmmm! please choose one among the suggestions,I will try to fetch something about it...?"],
   b9:["Am I boring?","Did I bored you?","Are you bored?","Why so boring?","Feeling bored?"],
   //4th round
-  b10:["If everyone is happy with you, then surely you have made many compromises in your life",
-      "If you are happy with everyone, then surely you have ignored many faults of others.",
-      "Not having friends has the same health risk as smoking a pack of cigarettes a day, So let's be friend haha",
-      "There are so many beautiful reasons to be happy, right for me is we are chatting haha",
-      "Time is free but it's priceless,you can't own it but you can use it isn't it thought provoking?"],
-  b11:["Let it be I didn't found anything hahah","Oops! found nothing sorry",
-      "It's better if we skip this hahah","Common let's skip this you too seems least interested haha","Sorry nothing found for anything haha"],
-  b12:["Did you know, right now over 8.7 billion machines are connected to the internet and one among them is chatting with me",
-        "Technology will not replace great teachers but technology in the hands of great teachers can be transformational.",
-        "This industry does not respect tradition, it only respect innovation",
-        "Did you know most people in the world owns a mobile phone than a toothbrush",
-        "28% of IT professionals hide their career from friends and family to get out of giving free tech support"],
+  b10:["Did you know? If everyone is happy with you, then surely you have made many compromises in your life",
+      "Did you know? If you are happy with everyone, then surely you have ignored many faults of others.",
+      "Did you know? Not having friends has the same health risk as smoking a pack of cigarettes a day, So let's be friend haha",
+      "Did you know? There are so many beautiful reasons to be happy, right now for me is,we are chatting haha",
+      "Did you know? Time is free but it's priceless,you can't own it but you can use it, isn't it thought provoking?"],
+  b11:["Oops! I didn't find anything, better luck next time","Oops! found nothing sorry!",
+      "It's better if we skip this hahah","I am too lazy to find, let's skip this haha ","Sorry! nothing found for anything haha"],
+  b12:["Did you know? right now over 8.7 billion machines are connected to the internet and one among them is chatting with me",
+        "Did you know? technology can never replace great teachers but technology in the hands of great teachers can be transformational.",
+        "Did you knwo? tech industry does not respect tradition, it only respect innovation",
+        "Did you know? most people in the world owns a mobile phone than a toothbrush",
+        "Did you know? 28% of IT professionals hide their career from friends and family to get out of giving free tech support"],
   //end response
   b13:["Oops! I need an urgent update","Omg! there is some error..","Sorry! I gotta go for an update","Ewh! there is some glitch..","I need maintainence,Oops!"],
   b14:["Catch you later","Have a good day","Please check back later","See you soon","Bye for now"]

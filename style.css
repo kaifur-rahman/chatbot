@@ -267,9 +267,12 @@ html{
 
 /*bot Response Style */
 .botResponseStyle{
-  text-align: right;
+  text-align: justify;
   padding-right: 0.8rem;
   color: red;
+  margin-left: 4.5rem;
+  line-height: 2rem;
+  word-spacing: 0.4rem;
 }
 
 /*user response time stylesheet*/

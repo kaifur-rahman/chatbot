@@ -420,16 +420,21 @@ h1{
   }
   .heading{
     background-color: green;
-     height: 55rem;
+     height: 100rem;
   }
   .title{
+    padding-top: 10rem;
     font-size: 12rem;
   }
   .botImage{
+    position: relative;
+    top:10rem;
     width: 16rem;
     height:16rem;
   }
   .subTitle{
+    position: relative;
+    top:15rem;
     width: 50.5rem;
     font-size: 4rem;
     left: 20%;
@@ -437,12 +442,12 @@ h1{
   .activateButton{
     position: relative;
     left: 26rem;
-    top:3rem;
+    top:15rem;
   }
   .deactivateButton{
     position: relative;
     left: 26rem;
-    top:3rem;
+    top:15rem;
   }
   .btn{
     font-size: 2rem;
@@ -452,6 +457,8 @@ h1{
     to {left:23rem;}
   }
   .arrow{
+    position: relative;
+    top:15rem;
     height: 3.8rem;
     width: 3.8rem;
     position: relative;
@@ -477,10 +484,14 @@ h1{
   .b3{
     font-size: 1.3rem;
   }
+  .credit{
+    font-size: 2.5rem;
+  }
   .secondSection{
-    zoom:115%;
+    zoom:180%;
   }
 }
+
 
 /*ipads & tablets*/
 @media (max-width:768px){

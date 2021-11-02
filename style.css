@@ -424,19 +424,19 @@ h1{
   }
   .title{
     padding-top: 10rem;
-    font-size: 12rem;
+    font-size: 17rem;
   }
   .botImage{
     position: relative;
     top:10rem;
-    width: 16rem;
-    height:16rem;
+    width: 18rem;
+    height:18rem;
   }
   .subTitle{
     position: relative;
     top:15rem;
-    width: 50.5rem;
-    font-size: 4rem;
+    width: 60.5rem;
+    font-size: 6rem;
     left: 20%;
   }
   .activateButton{
@@ -450,15 +450,15 @@ h1{
     top:15rem;
   }
   .btn{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   @keyframes arrow_animation_1{
-    from {left:55rem;}
-    to {left:23rem;}
+    from {left:65rem;}
+    to {left:25rem;}
   }
   .arrow{
     position: relative;
-    top:15rem;
+    top:11rem;
     height: 3.8rem;
     width: 3.8rem;
     position: relative;
@@ -491,7 +491,6 @@ h1{
     zoom:180%;
   }
 }
-
 
 /*ipads & tablets*/
 @media (max-width:768px){
